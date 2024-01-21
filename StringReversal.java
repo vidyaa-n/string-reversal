@@ -8,9 +8,9 @@ public class StringReversal {
 	{
 		String reverseStr = "";
 		Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter A String To Reverse: ");
-        String myStr = scanner.nextLine();
-        scanner.close();
+        	System.out.print("Enter A String To Reverse: ");
+        	String myStr = scanner.nextLine();
+        	scanner.close();
 		
 		for(int i = myStr.length()-1; i>=0; i--)
 		{
